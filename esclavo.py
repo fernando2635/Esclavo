@@ -14,7 +14,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 # Configuración del bot
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix='!', intents=intents)
+bot = commands.Bot(command_prefix='$', intents=intents)
 
 # Bot de Música: Reproduce música desde YouTube
 @bot.command(name='play', help='Reproduce música desde YouTube')
